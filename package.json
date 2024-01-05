@@ -10,10 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/ahsanuzair/MediTrust.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ahsanuzair/MediTrust/issues"
   },
-  "homepage": "https://github.com/ahsanuzair/MediTrust#readme"
+  "homepage": "https://github.com/ahsanuzair/MediTrust#readme",
+  "dependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.3",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.4"
+  },
+  "devDependencies": {
+    "ethers": "^6.1.0"
+  }
 }
