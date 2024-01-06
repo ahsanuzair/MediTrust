@@ -27,8 +27,6 @@ contract Campaign{
         uint value;
         address payable  recipient;
         bool complete;
-        // uint approvalCount;
-        // mapping (address => bool)  approvals;
     }
 
 //create instance of Request struct for use in contract
@@ -65,7 +63,6 @@ contract Campaign{
             value: value,
             recipient: recipient,
             complete: false
-            //approvalCount: 0
         });
 
         requsts.push(newRequest);
